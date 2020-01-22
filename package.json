@@ -1,6 +1,6 @@
 {
 	"name": "use-set",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "Use Set in React Hooks",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/codefeathers/react-useset.git"
+		"url": "git+ssh://git@github.com/codefeathers/react-use-set.git"
 	},
 	"keywords": [
 		"react",
@@ -20,9 +20,9 @@
 	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/codefeathers/react-hook-set/issues"
+		"url": "https://github.com/codefeathers/react-use-set/issues"
 	},
-	"homepage": "https://github.com/codefeathers/react-hook-set#readme",
+	"homepage": "https://github.com/codefeathers/react-use-set#readme",
 	"peerDependencies": {
 		"react": "*"
 	},

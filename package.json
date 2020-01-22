@@ -1,7 +1,7 @@
 {
-	"name": "react-useset",
+	"name": "react-hook-set",
 	"version": "0.0.1",
-	"description": "Use Set as state for React Hooks",
+	"description": "Use Set in React Hooks",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -20,9 +20,9 @@
 	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/codefeathers/react-useset/issues"
+		"url": "https://github.com/codefeathers/react-hook-set/issues"
 	},
-	"homepage": "https://github.com/codefeathers/react-useset#readme",
+	"homepage": "https://github.com/codefeathers/react-hook-set#readme",
 	"peerDependencies": {
 		"react": "*"
 	},

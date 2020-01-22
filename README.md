@@ -1,4 +1,4 @@
-# react-hook-set
+# use-set
 
 Use a Set in your React Hooks.
 
@@ -11,7 +11,7 @@ npm i react-hook-set
 ## Usage
 
 ```JavaScript
-import { useSet } from "react-hook-set";
+import { useSet } from "use-set";
 
 const List = (props) => {
 	const checked = useSet(new Set());

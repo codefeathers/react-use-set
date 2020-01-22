@@ -8,11 +8,16 @@ export const useSet = set => {
 
 	const setProxy = new Proxy(set, {
 		get: (_, key) => {
-			if (modifiers.has(key)) {
+			if (key === "toggle") {
+				return value =>
+					set.has(value)
+						? setProxy.delete(value)
+						: setProxy.add(value);
+			} else if (modifiers.has(key)) {
 				return value => {
 					set[key](value);
 					setWrap([ set ]);
-					return set;
+					return setProxy;
 				}
 			} else {
 				return set[key];

@@ -5,7 +5,7 @@ Use a Set in your React Hooks.
 ## Installation
 
 ```bash
-npm i react-hook-set
+npm i use-set
 ```
 
 ## Usage

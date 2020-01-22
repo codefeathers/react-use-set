@@ -1,0 +1,32 @@
+{
+	"name": "react-useset",
+	"version": "0.0.1",
+	"description": "Use Set as state for React Hooks",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/codefeathers/react-useset.git"
+	},
+	"keywords": [
+		"react",
+		"hooks",
+		"useset",
+		"set",
+		"usestate"
+	],
+	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/codefeathers/react-useset/issues"
+	},
+	"homepage": "https://github.com/codefeathers/react-useset#readme",
+	"peerDependencies": {
+		"react": "*"
+	},
+	"devDependencies": {
+		"react": "*"
+	}
+}

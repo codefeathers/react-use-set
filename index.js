@@ -20,7 +20,7 @@ export const useSet = set => {
 					return setProxy;
 				}
 			} else {
-				return set[key];
+				return set[key].bind(set);
 			}
 
 		},

@@ -1,6 +1,6 @@
 {
 	"name": "use-set",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Use Set in React Hooks",
 	"main": "index.js",
 	"scripts": {
